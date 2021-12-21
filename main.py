@@ -34,7 +34,6 @@ B *= -1
 B[k - 1] = 0
 print("High diagonal \n", B)
 C = np.zeros(k)
-
 for i in range(1, k - 1):
     C[i] = np.random.randint(abs(A[i]) + abs(B[i]) + 7, abs(A[i]) + abs(B[i]) + 14)
 
